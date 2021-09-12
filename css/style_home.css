@@ -1,0 +1,98 @@
+
+.hero{
+    position: absolute;
+    width: 442px;
+    height: 56px;
+    left: 85px;
+    top: 226px;
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+  
+    color: #FFC89A;
+  
+    text-shadow: 0px 4px 25px #000000;
+  }
+  .subhero{
+  
+    position: absolute;
+    width: 517px;
+    height: 78px;
+    left: 85px;
+    top: 284px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 15px #000000;
+  }
+  .learnmore_rect{
+      
+    position: absolute;
+    width: 159px;
+    height: 38.78px;
+    left: 85px;
+    top: 509px;
+  
+    background: #CECECE;
+    filter: drop-shadow(0px 4px 25px #000000);
+  
+  }
+  .learnmore_txt{
+  
+    position: absolute;
+    width: 111.74px;
+    height: 27.15px;
+    left: 116.91px;
+    top: 514px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #161616;
+    
+    background: #CECECE;
+  
+    
+    
+  }
+  .down_arrow{
+      
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 700px;
+    top: 653px;
+  
+  }
+.truck{
+
+  position: absolute;
+  width: 633.77px;
+  height: 452.87px;
+  left: 737.87px;
+  top: 180.03px;
+  
+  transform: rotate(0.72deg);
+}

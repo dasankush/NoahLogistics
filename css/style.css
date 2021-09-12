@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #2d2d2d;
+
+}
+.backgroundhome{
+  
+  position: relative;
+  width: 1349px;
+  height: 768px;
+  background: #2D2D2D;
+}
+.homepage{
+  background: #2d2d2d;
+}
+.logo{
+  position: absolute;
+  width: 41px;
+  height: 23px;
+  left: 89px;
+  top: 28px;
+
+}
+.home{
+    
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 691px;
+  top: 28px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.service{
+
+  position: absolute;
+  width: 67px;
+  height: 25px;
+  left: 803px;
+  top: 28px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+.clients{
+    
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  left: 932px;
+  top: 28px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+.contact{
+    
+  position: absolute;
+  width: 65px;
+  height: 25px;
+  left: 1055px;
+  top: 28px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+.about{
+    
+  position: absolute;
+  width: 72px;
+  height: 25px;
+  left: 1183px;
+  top: 28px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #bbbbbb;
+}
