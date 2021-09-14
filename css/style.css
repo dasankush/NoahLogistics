@@ -6,10 +6,6 @@
   background: #2d2d2d;
 
 }
-.favicon{
-  width: 200px;
-  height: 200px;
-}
 .backgroundhome{
   
   position: relative;
@@ -131,7 +127,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: #ffffff;
+  color: #FFC89A;
 }
 .float-on-hover {
   display: inline-block;
@@ -150,4 +146,18 @@ a:hover{
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
     
+}
+.footer{
+  font-family: montserrat;
+  font-size: 11px;
+  position: absolute;
+  color: #fff;
+  left: 1200px;
+  top: 670px;
+}
+.ankush{
+  font-family: roboto;
+  color:#FFC89A;
+  font-size: 14px;
+  word-spacing: 5px;
 }

@@ -1,4 +1,6 @@
-
+body{
+  overflow: hidden;
+}
 .hero{
     position: absolute;
     width: 442px;
@@ -76,12 +78,11 @@
     font-weight: 300;
     font-size: 16px;
     display: inline-block;
-    border: 1.5px solid;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
       
-    color: #ffffff;
+    color: #FFC89A;
     border-color: #3b3b3b;
     background: #000000;
     
@@ -91,21 +92,44 @@
     
 
 }
-  .down_arrow{
-      
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 700px;
-    top: 653px;
-  
-  }
+.down_arrow{
+    
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 700px;
+  top: 653px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.down_arrow:hover, .down_arrow:focus, .down_arrow:active {
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 700px;
+  top: 653px;
+  border-radius: 10px;
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
 .truck{
 
   position: absolute;
   width: 760.47px;
   height: 500px;
   left: 605.61px;
-  top: 150px;
+  top: 140px;
   
 }

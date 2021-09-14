@@ -1,10 +1,247 @@
+body{
+  overflow: hidden;
 
-iframe{
-    position: absolute;
-    width: 500.74px;
-    height: 300.15px;
-    left: 112.91px;
-    top: 200.43px;
-    border: 0px solid #fff;
-    
-  }
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+iframe {
+  position: absolute;
+  width: 487px;
+  height: 257px;
+  left: 110px;
+  top: 180px;
+  border: none ;
+  
+  background: #000000;
+  box-shadow: 2px 2px 50px 5px rgb(255, 255, 255);
+}
+::placeholder { 
+  color: white;
+  opacity: 1; 
+}
+.location{
+
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 110px;
+  top: 484px;
+  
+}
+.location_txt{
+
+  position: absolute;
+  width: 353px;
+  height: 19px;
+  left: 161px;
+  top: 491px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.mail{
+
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 110px;
+  top: 529px;
+  
+  
+}
+.mail_txt{
+
+  position: absolute;
+  width: 244px;
+  height: 19px;
+  left: 161px;
+  top: 534px;
+  
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mail_txt:hover{
+  color: #FFC89A;
+}
+
+.facebook{
+
+  position: absolute;
+  left: 110px;
+  top: 583px;
+  
+  
+}
+.instagram{
+
+  position: absolute;
+  left: 159px;
+  top: 583px;
+  
+  
+}
+.linkedin{
+
+  position: absolute;
+  left: 220px;
+  top: 583px;
+  
+}
+.website_icon{
+
+  position: absolute;
+  left: 281px;
+  top: 585px;
+}
+.lets_talk{
+  
+position: absolute;
+width: 366px;
+height: 41px;
+left: 817px;
+top: 180px;
+
+font-family: montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 49px;
+display: flex;
+align-items: center;
+letter-spacing: 0.07em;
+
+color: #FFC89A;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(37px);
+}
+.backshadow_letstalk{
+  position: absolute;
+  width: 207px;
+  height: 41px;
+  left: 817px;
+  top: 180px;
+
+  background: rgba(196, 196, 196, 0.0001);
+  box-shadow: 5px 16px 35px 3px rgba(0, 0, 0, 0.25);
+}
+#name{
+  position: absolute;
+  padding-left: 20px;
+width: 366px;
+height: 45px;
+left: 817px;
+top: 264px;
+border: none;
+font-family: roboto;
+font-weight: 200;
+font-size: 13px;
+letter-spacing: 1px;
+color: #fff;
+
+background: #414141;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+#email{
+  
+position: absolute;
+padding-left: 20px;
+width: 366px;
+height: 45px;
+left: 817px;
+top: 336px;
+border: none;
+font-family: roboto;
+font-weight: 200;
+font-size: 13px;
+letter-spacing: 1px;
+color: #fff;
+
+background: #414141;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+
+}
+#message{
+  
+position: absolute;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+width: 366px;
+height: 130px;
+left: 817px;
+top: 408px;
+border: none;
+font-family: montserrat;
+font-weight: 200;
+font-size: 13px;
+letter-spacing: 1px;
+line-height: 20px;
+color: #fff;
+resize: none;
+overflow: hidden;
+
+background: #414141;
+box-shadow: 8px 11px 20px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+
+}
+.submit{
+  position: absolute;
+width: 136px;
+height: 38px;
+left: 817px;
+top: 565px;
+color: #ffffff;
+border: none;
+
+font-family: montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+background: #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.submit:hover{
+
+  position: absolute;
+width: 136px;
+height: 38px;
+left: 817px;
+top: 565px;
+color: #FFC89A;
+border: none;
+
+background: #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
