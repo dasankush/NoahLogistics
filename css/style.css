@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 * {
   margin: 0px;
   padding: 0px;
   background: #2d2d2d;
-
 }
-.backgroundhome{
-  
+html{
+  scroll-behavior: smooth;
+}
+.backgroundhome {
   position: relative;
   width: 1349px;
   height: 768px;
-  background: #2D2D2D;
-}
-.homepage{
   background: #2d2d2d;
 }
-.logo{
+.homepage {
+  background: #2d2d2d;
+}
+.logo {
   position: absolute;
   width: 41px;
   height: 23px;
   left: 89px;
   top: 28px;
-
 }
-.home{
-    
+.home {
   position: absolute;
   width: 50px;
   height: 20px;
@@ -44,14 +43,13 @@
 
   color: #c5c5c5;
 }
-.service{
-
+.service {
   position: absolute;
   width: 67px;
   height: 25px;
   left: 714px;
   top: 35px;
-  
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -60,12 +58,10 @@
   display: flex;
   align-items: center;
   text-align: center;
-  
+
   color: #c5c5c5;
-  
 }
-.clients{
-    
+.clients {
   position: absolute;
   width: 60px;
   height: 25px;
@@ -82,10 +78,8 @@
   text-align: center;
 
   color: #c5c5c5;
-
 }
-.contact{
-    
+.contact {
   position: absolute;
   width: 65px;
   height: 25px;
@@ -102,10 +96,8 @@
   text-align: center;
 
   color: #c5c5c5;
-
 }
-.about{
-    
+.about {
   position: absolute;
   width: 72px;
   height: 25px;
@@ -123,11 +115,11 @@
 
   color: #c5c5c5;
 }
-a{
+a {
   text-decoration: none;
 }
-a:hover{
-  color: #FFC89A;
+a:hover {
+  color: #ffc89a;
 }
 .float-on-hover {
   display: inline-block;
@@ -142,12 +134,13 @@ a:hover{
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.float-on-hover:hover, .float-on-hover:focus, .float-on-hover:active {
+.float-on-hover:hover,
+.float-on-hover:focus,
+.float-on-hover:active {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
-    
 }
-.footer{
+.footer {
   font-family: montserrat;
   font-size: 11px;
   position: absolute;
@@ -155,9 +148,9 @@ a:hover{
   left: 1200px;
   top: 670px;
 }
-.ankush{
+.ankush {
   font-family: roboto;
-  color:#FFC89A;
+  color: #ffc89a;
   font-size: 14px;
   word-spacing: 5px;
 }

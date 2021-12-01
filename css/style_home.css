@@ -3,8 +3,8 @@ body{
 }
 .hero{
     position: absolute;
-    width: 442px;
-    height: 56px;
+    /* width: 442px;
+    height: 56px; */
     left: 85px;
     top: 226px;
   
@@ -132,4 +132,7 @@ body{
   left: 605.61px;
   top: 140px;
   
+}
+a{
+  color: #FFC89A;
 }
